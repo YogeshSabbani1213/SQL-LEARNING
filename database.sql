@@ -1,0 +1,5 @@
+CREATE DATABASE sqlLearning;
+
+SHOW DATABASES;
+
+USE sqlLearning;
