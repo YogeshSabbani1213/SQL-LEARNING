@@ -1,5 +1,4 @@
-INSERT INTO users
-VALUES
+INSERT INTO users VALUES
 (1,'Yogesh','yogesh@gmail.com','male','2004-06-12',40000);
 
 INSERT INTO users
@@ -41,7 +40,8 @@ INSERT INTO users (name, email, gender, dateOfBirth, salary) VALUES
 ('Yash', 'yash@example.com', 'Male', '1997-06-06', 64000.00),
 ('Fatima', 'fatima@example.com', 'Female', '1993-03-03', 55000.00);
 
-
+INSERT INTO users (name, email, gender, salary) VALUES
+('Ashish', 'ashish@example.com', 'Male', 65000.00)
 
 
 SELECT * FROM users;
