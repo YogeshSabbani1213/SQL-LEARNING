@@ -8,5 +8,6 @@ CREATE TABLE users (
     dateOfBirth DATE
 );
 
-SHOW TABLES;
+SELECT * FROM users;
+
 
