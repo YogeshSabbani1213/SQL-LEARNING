@@ -44,4 +44,13 @@ INSERT INTO users (name, email, gender, salary) VALUES
 ('Ashish', 'ashish@example.com', 'Male', 65000.00)
 
 
+INSERT INTO users (name, email, gender, salary) VALUES
+('Ram', 'ram@example.com', 'Male', 165000.00);
+
+INSERT INTO users (name, email, gender, salary) VALUES
+('Rana', 'rana@example.com', 'Male', 75000.00);
+
+INSERT INTO users (name, email, gender, salary) VALUES
+('Rajamouli', 'rajamouli@example.com', 'Male', 30000.00);
+
 SELECT * FROM users;
