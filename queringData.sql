@@ -9,3 +9,5 @@ select * from users where gender = 'male';
 select * from users where id>=10;
 
 select * from users where salary>70000 and gender='female'
+
+select * from users where salary>70000 and name='Ram'
