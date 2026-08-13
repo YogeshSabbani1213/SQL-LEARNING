@@ -7,6 +7,8 @@ update users SET name='Raj Shamani', email='rajshamani@gmail.com' where id = 3 ;
 UPDATE users SET name = 'Vivek', email='vivek@gmail.com' WHERE id = 4;
 UPDATE users SET name='Ashish' where id = 30;
 
-UPDATE users SET salary = salary+10000 where salary<60000;
 
 UPDATE users SET name='Aisha Khan' where email='aisha@example.com';
+UPDATE users SET salary = salary+10000 where salary<60000;
+
+UPDATE users SET salary=50000;
