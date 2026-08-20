@@ -14,3 +14,6 @@ UPDATE users SET salary = salary + 10000 where salary<60000;
 UPDATE users SET salary=50000;
 
 UPDATE users SET salary = 55000 where id = 1;
+
+UPDATE users
+SET salary = FLOOR(30000 + RAND() * 70001);
