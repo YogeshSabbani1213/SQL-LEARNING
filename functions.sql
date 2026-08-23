@@ -40,3 +40,4 @@ select sum(salary) from users where salary > 50000;
 
 select id, gender, Lower(name), CONCAT(lower(name),6712) AS username, length(name) AS len from users;
 
+select salary, ROUND(salary) AS round from users;
