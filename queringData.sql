@@ -4,7 +4,7 @@ SELECT * from users where gender='female';
 
 select * from users where gender = 'male';
 
--- select * from users;
+select * from users;
 
 select * from users where id>=10;
 
