@@ -10,3 +10,5 @@ create table adressess (
 );
 
 select * from users;
+
+show tables;
