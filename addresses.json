@@ -1,0 +1,200 @@
+[
+  {
+    "id": 41,
+    "user_id": 1,
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 42,
+    "user_id": 2,
+    "city": "Nizamabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 43,
+    "user_id": 3,
+    "city": "Karimnagar",
+    "state": "Telangana"
+  },
+  {
+    "id": 44,
+    "user_id": 4,
+    "city": "Warangal",
+    "state": "Telangana"
+  },
+  {
+    "id": 45,
+    "user_id": 5,
+    "city": "Adilabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 46,
+    "user_id": 6,
+    "city": "Nirmal",
+    "state": "Telangana"
+  },
+  {
+    "id": 47,
+    "user_id": 7,
+    "city": "Kamareddy",
+    "state": "Telangana"
+  },
+  {
+    "id": 48,
+    "user_id": 8,
+    "city": "Medak",
+    "state": "Telangana"
+  },
+  {
+    "id": 49,
+    "user_id": 9,
+    "city": "Siddipet",
+    "state": "Telangana"
+  },
+  {
+    "id": 50,
+    "user_id": 10,
+    "city": "Mahabubnagar",
+    "state": "Telangana"
+  },
+  {
+    "id": 51,
+    "user_id": 11,
+    "city": "Khammam",
+    "state": "Telangana"
+  },
+  {
+    "id": 52,
+    "user_id": 12,
+    "city": "Nalgonda",
+    "state": "Telangana"
+  },
+  {
+    "id": 53,
+    "user_id": 13,
+    "city": "Suryapet",
+    "state": "Telangana"
+  },
+  {
+    "id": 54,
+    "user_id": 14,
+    "city": "Jagtial",
+    "state": "Telangana"
+  },
+  {
+    "id": 55,
+    "user_id": 15,
+    "city": "Mancherial",
+    "state": "Telangana"
+  },
+  {
+    "id": 56,
+    "user_id": 16,
+    "city": "Peddapalli",
+    "state": "Telangana"
+  },
+  {
+    "id": 57,
+    "user_id": 17,
+    "city": "Sangareddy",
+    "state": "Telangana"
+  },
+  {
+    "id": 58,
+    "user_id": 18,
+    "city": "Vikarabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 59,
+    "user_id": 19,
+    "city": "Wanaparthy",
+    "state": "Telangana"
+  },
+  {
+    "id": 60,
+    "user_id": 20,
+    "city": "Nagarkurnool",
+    "state": "Telangana"
+  },
+  {
+    "id": 61,
+    "user_id": 21,
+    "city": "Bhongir",
+    "state": "Telangana"
+  },
+  {
+    "id": 62,
+    "user_id": 22,
+    "city": "Jangaon",
+    "state": "Telangana"
+  },
+  {
+    "id": 63,
+    "user_id": 23,
+    "city": "Mulugu",
+    "state": "Telangana"
+  },
+  {
+    "id": 64,
+    "user_id": 24,
+    "city": "Narayanpet",
+    "state": "Telangana"
+  },
+  {
+    "id": 65,
+    "user_id": 25,
+    "city": "Asifabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 66,
+    "user_id": 26,
+    "city": "Mahabubabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 67,
+    "user_id": 27,
+    "city": "Kothagudem",
+    "state": "Telangana"
+  },
+  {
+    "id": 68,
+    "user_id": 28,
+    "city": "Sircilla",
+    "state": "Telangana"
+  },
+  {
+    "id": 69,
+    "user_id": 29,
+    "city": "Gadwal",
+    "state": "Telangana"
+  },
+  {
+    "id": 70,
+    "user_id": 30,
+    "city": "Medchal",
+    "state": "Telangana"
+  },
+  {
+    "id": 71,
+    "user_id": 32,
+    "city": "Hyderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 72,
+    "user_id": 33,
+    "city": "Secunderabad",
+    "state": "Telangana"
+  },
+  {
+    "id": 73,
+    "user_id": 34,
+    "city": "Nizamabad",
+    "state": "Telangana"
+  }
+]
