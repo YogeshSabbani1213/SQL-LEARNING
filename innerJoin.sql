@@ -19,3 +19,22 @@ INNER JOIN addresses ON users.id = addresses.user_id;
 SELECT users.name , addresses.city from users 
 INNER JOIN addresses ON users.id = addresses.user_id
 WHERE addresses.city='Hyderabad';
+
+--Display users whose state is Telangana.
+SELECT users.name , addresses.state from users
+INNER JOIN addresses ON users.id = addresses.user_id
+WHERE addresses.state='Telangana';
+
+--Display user name and salary along with city.
+SELECT users.name, users.salary, addresses.city from users
+INNER JOIN addresses ON users.id=addresses.user_id
+
+--Display only female users with their city.
+SELECT users.name,users.gender,addresses.city from users
+INNER JOIN addresses ON users.id=addresses.user_id
+WHERE users.gender = 'female';
+
+--Display users whose salary is greater than 80,000 along with their city.
+SELECT users.name,users.salary,addresses.city from users
+INNER JOIN addresses ON users.id=addresses.user_id
+WHERE users.salary>80000;
