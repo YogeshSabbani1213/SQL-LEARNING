@@ -31,3 +31,27 @@ WHERE users.salary > (SELECT avg(salary) from users);
 --For example:
 --WHERE salary > (SELECT AVG(salary) FROM users)
 --That's the important pattern to remember.
+
+
+--Display the second highest salary employee with their city.
+
+--to find second highest salary
+SELECT MAX(salary) AS second_highest_salary from users
+WHERE salary < (SELECT MAX(salary) from users)
+
+SELECT users.name,users.salary,addresses.city from users
+INNER JOIN addresses ON users.id = addresses.user_id
+WHERE users.salary < (
+    SELECT MAX(salary) from users
+    WHERE salary < (SELECT MAX(salary) from users)
+)
+
+
+--Display the city having the maximum number of users.
+SELECT addresses.city, COUNT(*) AS user_count
+FROM users
+INNER JOIN addresses
+    ON users.id = addresses.user_id
+GROUP BY addresses.city
+ORDER BY user_count DESC
+LIMIT 1;
