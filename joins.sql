@@ -1,4 +1,8 @@
--- `INNER JOIN` returns only the records that have matching values in both tables.
--- `LEFT JOIN` returns all records from the table after `FROM`, even if there is no matching record in the other table.
---`RIGHT JOIN` returns all records from the table after `RIGHT JOIN`, even if there is no matching record in the other table.
--- To identify the join, remember: `INNER = matching records`, `LEFT = all left-table records`, and `RIGHT = all right-table records`.
+-- `INNER JOIN` returns only the records that have matching values 
+--in both tables.
+-- `LEFT JOIN` returns all records from the table after `FROM`, 
+--even if there is no matching record in the other table.
+--`RIGHT JOIN` returns all records from the table 
+--after `RIGHT JOIN`, even if there is no matching record in the other table.
+-- To identify the join, remember: `INNER = matching records`,
+-- `LEFT = all left-table records`, and `RIGHT = all right-table records`.
