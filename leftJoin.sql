@@ -20,4 +20,9 @@ LEFT JOIN addresses ON users.id=addresses.user_id;
 
 --Count how many users have addresses.
 SELECT COUNT(*) from users
-INNER JOIN addresses ON users.id=addresses.user_id;
+LEFT JOIN addresses ON users.id=addresses.user_id;
+
+SELECT COUNT(addresses.user_id) AS users_with_addresses
+FROM users
+LEFT JOIN addresses
+ON users.id = addresses.user_id;
