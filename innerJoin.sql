@@ -38,3 +38,8 @@ WHERE users.gender = 'female';
 SELECT users.name,users.salary,addresses.city from users
 INNER JOIN addresses ON users.id=addresses.user_id
 WHERE users.salary>80000;
+
+--Display users born after 1995 along with their city.
+SELECT users.name, users.dateOfBirth, addresses.city from users
+INNER JOIN addresses ON users.id = addresses.user_id
+WHERE dateOfBirth>1995-01-01;
