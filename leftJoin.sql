@@ -14,3 +14,10 @@ SELECT users.name from users
 LEFT JOIN addresses ON users.id=addresses.user_id
 WHERE addresses.user_id IS NULL;
 
+--. Display all users with salary and city.
+SELECT users.salary, addresses.city from users
+LEFT JOIN addresses ON users.id=addresses.user_id;
+
+--Count how many users have addresses.
+SELECT COUNT(*) from users
+INNER JOIN addresses ON users.id=addresses.user_id;
