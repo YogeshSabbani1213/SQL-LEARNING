@@ -17,5 +17,5 @@ WHERE id IN (22,23,24,25,26,27,28,30);
 SELECT 
 a.id,
 a.name AS user_name,
-b.name AS reffered_by_name from users a
+b.name AS reffered_by from users a
 INNER JOIN users b ON a.reffered_by_id = b.id;
