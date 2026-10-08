@@ -22,3 +22,10 @@ SELECT count(*) from peopleof90s;
 SELECT count(*) FROM users;
 
 SELECT * FROM users;
+
+SELECT name, COUNT(*) AS count
+FROM users
+GROUP BY name
+HAVING COUNT(*) > 1;
+
+Insert INTO users (name,email,gender,dateOfBirth,salary) VALUES ('Raj','raj1213@gmail.com','male','1954-12-06',90000);
