@@ -9,8 +9,3 @@ SELECT * FROM users WHERE salary > (
     SELECT AVG(salary) FROM users
 );
 
-SELECT id,name,salary,reffered_by_id 
-FROM users 
-WHERE salary > (
-    SELECT AVG(salary) FROM users
-)
