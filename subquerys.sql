@@ -9,3 +9,8 @@ SELECT * FROM users WHERE salary > (
     SELECT AVG(salary) FROM users
 );
 
+SELECT id,name,salary,reffered_by_id 
+FROM users
+WHERE reffered_by_id IN (
+    SELECT id FROM users WHERE salary > 75000
+)
