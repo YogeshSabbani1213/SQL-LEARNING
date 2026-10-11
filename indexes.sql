@@ -14,3 +14,4 @@ SELECT COUNT(*) FROM USERS WHERE gender = 'Male';
 CREATE INDEX idx_salary ON users(salary);
 
 SELECT * FROM users WHERE gender='male' AND salary>70000;
+DROP INDEX idx_salary ON users;
