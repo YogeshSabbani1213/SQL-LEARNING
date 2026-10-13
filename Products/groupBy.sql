@@ -14,3 +14,8 @@ SELECT category AS 'Categories', Avg(price) AS 'Avg'
 FROM products
 GROUP BY category
 
+--Display each product category 
+--and the total stock available in that category.
+SELECT category AS 'Categories', Sum(stock) AS 'ALL STOCK'
+FROM products
+GROUP BY category;
