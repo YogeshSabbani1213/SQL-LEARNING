@@ -1,4 +1,4 @@
-SELECT gender, AVG(salary) AS 'Avg' 
+SELECT gender, AVG(salary) AS 'Avg', COUNT(*) AS 'Count'
 FROM users
 GROUP BY gender
-HAVING Avg< 71000;
+HAVING Avg< 76000;
