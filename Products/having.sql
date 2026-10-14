@@ -15,3 +15,9 @@ HAVING Avg(price) > 5000
 --Display categories where the average price is 
 --greater than ₹2,000, but consider only products 
 --priced above ₹1,000 when calculating that average.
+SELECT category AS 'categories',  AVG(price) AS avg_price
+ FROM products 
+WHERE price > 1000
+GROUP BY category
+HAVING Avg(price) > 2000;
+
