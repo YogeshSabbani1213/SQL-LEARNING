@@ -21,3 +21,20 @@ WHERE price > 1000
 GROUP BY category
 HAVING Avg(price) > 2000;
 
+--Display the product categories that have at 
+--least 5 products, and show the number of products 
+--in each category.
+SELECT category AS 'categories', COUNT(*) AS 'num of Prod' 
+FROM products
+GROUP BY category
+HAVING COUNT(*) >= 5 ;
+
+--Display each category and its total stock, 
+--but show only categories whose total stock is greater than 50.
+SELECT category AS 'categories', SUM(stock) AS 'totalstock' 
+FROM products
+GROUP BY category
+HAVING SUM(stock) > 50;
+
+
+--
